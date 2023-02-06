@@ -1,0 +1,19 @@
+{% extends 'main/layout.html' %}
+
+
+{% block title %}
+    <h1>Главная страница</h1>
+{% endblock %}
+
+
+{% block content %}
+
+<form class="home" action="{% url 'vacancy' %}" method="get">
+    <h1>Описание сервиса:</h1>
+    <div>
+        С помощью этого приложения можно найти топ 10 релевантных вакансий. Опишите Ваш опыт в произвольной форме
+        или вставьте текст резюме!  И прогрограмма выдаст Вам 10 ссылок на подходящие для Вас вакансии!
+    </div>
+    <button class="but" type="submit">К поиску вакансий</button>
+</form>
+{% endblock %}
