@@ -1,1 +1,0 @@
-# Ganina_diploma
